@@ -13,4 +13,21 @@ body{
   top: 20px;
   padding: 20px;
 }
+.catigory > h3{
+  margin-left: 10px;
+  position: relative;
+}
+.catigory > h3::after{
+  content: "";
+  width: 25%;
+  height: 2px;
+  background-color: #5188ec;
+  position: absolute;
+  top: 50%;
+  transform: translate(10%,-50%);
+  -webkit-transform: translate(10%,-50%);
+  -moz-transform: translate(10%,-50%);
+  -ms-transform: translate(10%,-50%);
+  -o-transform: translate(10%,-50%);
+}
 /* End Catigory Part */
