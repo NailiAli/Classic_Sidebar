@@ -13,11 +13,11 @@ body{
   top: 20px;
   padding: 20px;
 }
-.catigory > h3{
+.classic-sidebar > div > h3{
   margin-left: 10px;
   position: relative;
 }
-.catigory > h3::after{
+.classic-sidebar > div > h3::after{
   content: "";
   width: 25%;
   height: 2px;
@@ -29,5 +29,19 @@ body{
   -moz-transform: translate(10%,-50%);
   -ms-transform: translate(10%,-50%);
   -o-transform: translate(10%,-50%);
+}
+.catigory div{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: #777;
+  font-size: 14px;
+  font-weight: 550;
+}
+.catigory div:not(:last-child){
+  border-bottom: 2px solid #eee;
+}
+.catigory div input{
+  display: none;
 }
 /* End Catigory Part */
