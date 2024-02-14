@@ -57,6 +57,23 @@ body{
   -o-border-radius: 6px;
 }
 /* End Catigory Part */
+/* Start Gallory Part */
+.gallory{
+  width: 100%;
+}
+.gallory .images{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+}
+.gallory .images figure{
+  margin: 0;
+}
+.gallory .images figure img{
+  width: 80px;
+  height: 80px;
+}
+/* End Gallory Part */
 /* Start Archives Part */
 .archives form div{
   padding: 10px;
