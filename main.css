@@ -48,7 +48,7 @@ body{
   border: none;
   padding: 5px 10px;
   color: #777;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 550;
   border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -57,3 +57,14 @@ body{
   -o-border-radius: 6px;
 }
 /* End Catigory Part */
+/* Start Archives Part */
+.archives form div{
+  padding: 10px;
+}
+.archives form div input{
+  border: none;
+  font-size: 12px;
+  font-weight: 550;
+  color: #777;
+} 
+/* End Archives Part */
